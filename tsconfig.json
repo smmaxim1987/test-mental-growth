@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@features": ["features"],
+      "@pages": ["pages"],
+      "@hooks": ["hooks"],
+      "@app/*": ["app/*"],
+      "@assets/*": ["assets/*"],
+      "@shared/*": ["shared/*"]
+    }
+  }
+}
